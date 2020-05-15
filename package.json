@@ -9,6 +9,6 @@
   },
   "scripts": {
     "generate-db": "node ./mock/generatedb.js > ./mock/db.json",
-    "api-server": "json-server --watch ./mock/db.json --port 5000 --middlewares ./mock/middleware.js"
+    "api-server": "json-server --watch ./mock/db.json --host 3.87.200.19 --port 5000 --middlewares ./mock/middleware.js"
   }
 }
